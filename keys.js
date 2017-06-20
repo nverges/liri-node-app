@@ -10,6 +10,10 @@ exports.twitterKeys = {
 };
 
 exports.spotifyKeys = {
-	client_id: '416e15d0a9c74b8088ff7c34a0029097',
-	client_secret: '16fa8954ec104e69b80bdde209936695',
+	id: '416e15d0a9c74b8088ff7c34a0029097',
+	secret: '16fa8954ec104e69b80bdde209936695',
 };
+
+// exports.omdbKeys = {
+	
+// }
