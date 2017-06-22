@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Say Hi Later using setTimeout()</title>
+</head>
+<body>
+	
+
+<script type="text/javascript">
+
+function sayHiLater() {
+	var greeting = 'Hi!';
+
+	setTimeout(function() {
+
+		console.log(greeting);
+
+	}, 3000);
+}
+
+sayHiLater();
+
+
+document.onkeyup = function keyPress(event) {
+	if (event === 'e') {
+		console.log('HI');
+	}
+}
+
+
+</script>
+
+</body>
+</html>
