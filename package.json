@@ -5,7 +5,6 @@
   "main": "keys.js",
   "dependencies": {
     "node-spotify-api": "^1.0.5",
-    "omdbapi": "^2.0.1",
     "twitter": "^1.7.1"
   },
   "devDependencies": {},
