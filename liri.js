@@ -161,8 +161,8 @@ function movieAction() {
 };
 
 
-
-// performs specified action
+// performs do-what-it-says action
+// pulls data from random.txt
 function doAction() {
 	console.log('DO WHAT IT SAYS');
 	console.log('__________________________________');
@@ -171,5 +171,6 @@ function doAction() {
 	fs.readFile('random.txt', 'utf8', function(error, data) {
 		if (error) throw error;
 		console.log(data);
+	});
 };
 
